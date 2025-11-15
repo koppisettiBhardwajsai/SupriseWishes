@@ -158,7 +158,7 @@ S.UI = (function () {
             } else {
               S.Shape.switchShape(S.ShapeBuilder.letter(index), true);
             }
-          }, 1000, value, true);
+          }, 1300, value, true);
           break;
 
         case 'rectangle':
@@ -702,3 +702,4 @@ S.Shape = (function () {
 
 
 S.init();
+
